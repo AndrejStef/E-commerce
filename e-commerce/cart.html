@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="images/logo1.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><img src="images/shopping-bag.png" id="lg-bag" class="shop"></a></li>
+                <a href="#" id="close"><img src="images/delete-sign.png" class="close"></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><img src="images/shopping-bag.png" class="shop"></a>
+            <img src="images/menu.png" id="bar" class="shop">
+
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, WE love to hear from you</p>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><img src="images/delete-sign.png" class="cl"></a></td>
+                    <td><img src="images/products/f1.jpeg"></td>
+                    <td>Simple Smiley logo</td>
+                    <td>$118.19$</td>
+                    <td><input type="number" value="1"></td>
+                    <td>118.19$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><img src="images/delete-sign.png" class="cl"></a></td>
+                    <td><img src="images/products/f2.jpeg"></td>
+                    <td>Simple Smiley logo</td>
+                    <td>$118.19$</td>
+                    <td><input type="number" value="1"></td>
+                    <td>118.19$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><img src="images/delete-sign.png" class="cl"></a></td>
+                    <td><img src="images/products/f3.jpeg"></td>
+                    <td>Simple Smiley logo</td>
+                    <td>$118.19$</td>
+                    <td><input type="number" value="1"></td>
+                    <td>118.19$</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="images/logo1.png">
+            <p>Contact</p>
+            <p><strong>Address</strong>123 La Rambla, Street 22, Barcelona </p>
+            <p><strong>Phone</strong>056278705</p>
+            <p><strong>Hours</strong>10-20, Mon-Sat</p>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg">
+                <img src="images/pay/play.jpg">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
